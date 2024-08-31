@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "github-utils"
-version = "0.1.0"
+name = "github-utility"
+version = "1.0.0"
 description = "A simple Python package for interacting with the GitHub API."
 authors = ["Shivam Patil <sbpatil5606@gmail.com>"]
 readme = "README.md"
@@ -17,6 +17,9 @@ ruff = "^0.6.3"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+github-utility = "github_utility.cli:main"
 
 
 [tool.ruff]

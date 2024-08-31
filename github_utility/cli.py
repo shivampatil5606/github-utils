@@ -9,7 +9,7 @@ def main():
     # Get the version from the metadata.
     #   For running slash tests if jira-ticket-automation package not found set default to 1.0.0.
     try:
-        __version__ = importlib.metadata.version("github-utils")
+        __version__ = importlib.metadata.version("github-utility")
     except importlib.metadata.PackageNotFoundError:
         __version__ = "1.0.0"  # Set a default version
 

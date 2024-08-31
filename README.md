@@ -1,11 +1,11 @@
-# github-utils
+# github-utility
 
 A simple Python package for interacting with the GitHub API.
 
 ## Installation
 
 ```bash
-pip install github-utils
+pip install github-utility
 ```
 
 ## Usage
@@ -37,9 +37,9 @@ print(issue_data)
 export GITHUB_ACCESS_TOKEN="YOUR_ACCESS_TOKEN"
 
 # To get the user details
-github-utils get-user --username <username>
+github-utility get-user --username <username>
 
 # To create an issue on GitHub
-github-utils create-issue -o <repo-owner> -r <repo-name> -t <issue-title> -b <issue-body>
+github-utility create-issue -o <repo-owner> -r <repo-name> -t <issue-title> -b <issue-body>
 
 ```
